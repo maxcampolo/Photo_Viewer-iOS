@@ -13,6 +13,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    // Set supports shake to edit to yet so we can handle shake events
+    application.applicationSupportsShakeToEdit = YES;
+    
     return YES;
 }
 							

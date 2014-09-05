@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CategoriesTableViewController.h
 //  PhotoViewer
 //
 //  Created by Max Campolo on 9/2/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface CategoriesTableViewController : UITableViewController
 
 @end
